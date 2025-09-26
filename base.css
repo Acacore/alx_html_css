@@ -203,12 +203,25 @@ h6 {
 body{
     display:flex;
     flex-direction: column;
+	font-family: Roboto;
+	line
 }
+p{
+	 line-height: 1.6;
+	 font-size: 1.2em
+}
+
 main{
     display:flex;
     flex-direction: row;
     flex: auto;
 }
+header, h1, h2, h3, h4, h5,h6{
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #000247
+}
+
 main article{
     flex: 2;
     overflow-y: auto;
@@ -216,4 +229,16 @@ main article{
 main aside{
     flex: 1;
     overflow-y: auto;
+}
+
+header{
+	display:flex;
+	justify-content: flex-start;
+	align-items: center
+}
+.logo{
+	transform: scale(0.5);
+}
+aside p{
+	font-size:1em
 }
